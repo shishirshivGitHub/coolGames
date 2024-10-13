@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "CoolGames"
 include(":app")
- 
+include(":login")
+include(":dashboard")
