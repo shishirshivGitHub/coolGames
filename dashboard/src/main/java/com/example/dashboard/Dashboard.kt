@@ -1,5 +1,6 @@
 package com.example.dashboard
 
+import android.content.Intent
 import com.google.android.gms.ads.AdError
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.FullScreenContentCallback
@@ -58,6 +59,9 @@ class Dashboard : AppCompatActivity() {
 
         // Toasts the test ad message on the screen. Remove this after defining your own ad unit ID.
         Toast.makeText(this, TOAST_TEXT, Toast.LENGTH_LONG).show()
+
+        val intent = Intent(this, TradingViewActivitiy::class.java)
+        startActivity(intent)
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
