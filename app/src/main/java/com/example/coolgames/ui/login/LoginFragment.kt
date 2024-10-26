@@ -13,7 +13,6 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import com.example.coolgames.R
 import com.example.coolgames.databinding.FragmentLoginBinding
-import com.example.coolgames.ui.login.LoginViewModel
 import com.google.firebase.auth.FirebaseAuth
 
 class LoginFragment : Fragment() {
@@ -73,13 +72,11 @@ class LoginFragment : Fragment() {
         _binding = null
         val navController = findNavController()
         navController.addOnDestinationChangedListener { _, _, _ ->
-
         }
     }
 
     override fun onResume() {
         super.onResume()
-        // Update ActionBar title if needed
         (activity as AppCompatActivity).supportActionBar?.title = "Login"
     }
 

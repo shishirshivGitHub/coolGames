@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
-import androidx.navigation.ui.AppBarConfiguration
 import com.example.coolgames.R
 import com.example.coolgames.databinding.FragmentSignupBinding
 import com.google.firebase.auth.FirebaseAuth

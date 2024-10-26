@@ -7,18 +7,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="This is the Nested Fragment 1 "
-        android:textSize="40sp"/>
+        android:textSize="40sp" />
+
     <TextView
-        android:layout_marginTop="50dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
         android:text="Welcome Home Tab "
-        android:textSize="40sp"/>
+        android:textSize="40sp" />
+
     <TextView
         android:id="@+id/user"
-        android:layout_marginTop="50dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
         android:text="Email :"
-        android:textSize="40sp"/>
+        android:textSize="40sp" />
 </LinearLayout>

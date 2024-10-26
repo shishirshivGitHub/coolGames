@@ -7,10 +7,10 @@
     tools:context=".ui.home.HomeFragment">
 
     <FrameLayout
-        android:layout_marginTop="100dp"
         android:id="@+id/nested_fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
         app:layout_constraintBottom_toTopOf="@+id/nav_view"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
