@@ -1,14 +1,13 @@
 {
   "project_info": {
-    "project_number": "266232636936",
-    "firebase_url": "https://trading-knowledge-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "project_id": "trading-knowledge",
-    "storage_bucket": "trading-knowledge.appspot.com"
+    "project_number": "882882649256",
+    "project_id": "tradingapp-dff2d",
+    "storage_bucket": "tradingapp-dff2d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:266232636936:android:d5c0ebc9f55437654513bd",
+        "mobilesdk_app_id": "1:882882649256:android:6e5e8047ef6ebd3baff69d",
         "android_client_info": {
           "package_name": "com.example.coolgames"
         }
@@ -16,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCmOIiNH0iqD7OXaevSHTmwLpt_EE-Js3g"
+          "current_key": "AIzaSyAAk3KfdaPGin6gzLEsWqMmTI-pZDhjk8I"
         }
       ],
       "services": {

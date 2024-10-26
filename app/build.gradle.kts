@@ -68,6 +68,7 @@ android {
         implementation("androidx.compose.ui:ui-tooling-preview")
         implementation("com.google.firebase:firebase-database:21.0.0")
         implementation(platform("androidx.compose:compose-bom:2023.03.00"))
+        implementation("androidx.activity:activity:1.9.3")
         androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
         androidTestImplementation("androidx.compose.ui:ui-test-junit4")
         androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
@@ -94,4 +95,7 @@ android {
         androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
         debugImplementation("androidx.compose.ui:ui-tooling")
         debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+        implementation("com.google.firebase:firebase-auth-ktx:23.1.0")
+        implementation("com.google.firebase:firebase-auth:23.1.0")
     }
