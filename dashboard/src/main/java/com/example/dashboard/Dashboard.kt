@@ -27,7 +27,7 @@ private const val TOAST_TEXT = "Test ads are being shown. " +
         "with your own ad unit ID."
 private const val START_LEVEL = 1
 
-class Dashboard : AppCompatActivity() {
+open class Dashboard : AppCompatActivity() {
 
     private var currentLevel: Int = 0
     private var interstitialAd: InterstitialAd? = null
@@ -60,8 +60,8 @@ class Dashboard : AppCompatActivity() {
         // Toasts the test ad message on the screen. Remove this after defining your own ad unit ID.
         Toast.makeText(this, TOAST_TEXT, Toast.LENGTH_LONG).show()
 
-        val intent = Intent(this, TradingViewActivitiy::class.java)
-        startActivity(intent)
+        /*val intent = Intent(this, TradingViewActivitiy::class.java)
+        startActivity(intent)*/
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

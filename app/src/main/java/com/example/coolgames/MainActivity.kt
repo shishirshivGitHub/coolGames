@@ -1,5 +1,6 @@
 package com.example.coolgames
 
+import android.content.Intent
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
@@ -8,6 +9,8 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.coolgames.databinding.ActivityMainBinding
+import com.example.dashboard.Dashboard
+import com.example.dashboard.TradingViewActivitiy
 
 class MainActivity : AppCompatActivity() {
 
@@ -31,5 +34,8 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
+        val intent = Intent(this, Dashboard::class.java)
+        startActivity(intent)
     }
 }
